@@ -1,0 +1,49 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 3%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 348 83% 47%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 16 100% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 12%;
+    --input: 0 0% 12%;
+    --ring: 348 83% 47%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    background-image: radial-gradient(circle at 50% -20%, hsl(var(--primary) / 0.15) 0%, transparent 60%);
+    min-height: 100vh;
+  }
+}
+
+.markdown-content h1 { @apply text-4xl font-headline font-bold mb-6 text-foreground; }
+.markdown-content h2 { @apply text-3xl font-headline font-bold mb-4 mt-8 text-foreground; }
+.markdown-content h3 { @apply text-2xl font-headline font-bold mb-3 mt-6 text-foreground; }
+.markdown-content p { @apply text-lg leading-relaxed mb-4 text-muted-foreground; }
+.markdown-content ul { @apply list-disc pl-6 mb-4 text-muted-foreground; }
+.markdown-content ol { @apply list-decimal pl-6 mb-4 text-muted-foreground; }
+.markdown-content li { @apply mb-2; }
+.markdown-content blockquote { @apply border-l-4 border-primary pl-4 italic my-6 text-muted-foreground bg-muted/20 py-2; }

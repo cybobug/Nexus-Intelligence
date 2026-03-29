@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+.next/
+dist/
+build/
+
+# IDEs and local configurations
+.idx/
+.vscode/
+.idea/
+
+# Backend (Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.env.local
+.env.*
+logs/
+
+# Misc
+.DS_Store
+Thumbs.db

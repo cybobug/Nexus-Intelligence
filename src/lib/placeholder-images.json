@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "oracle-featured",
+      "description": "Abstract futuristic brain circuit with deep red lighting",
+      "imageUrl": "https://images.unsplash.com/photo-1750365920056-d4b4ca73fbaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmdXR1cmlzdGljJTIwYnJhaW58ZW58MHx8fHwxNzcxNTY2MTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "futuristic brain"
+    },
+    {
+      "id": "writing-tools",
+      "description": "Minimalist desk with high-end fountain pen and digital tablet",
+      "imageUrl": "https://images.unsplash.com/photo-1587522384446-64daf3e2689a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwd29ya3NwYWNlfGVufDB8fHx8MTc3MTUyNzQ1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist workspace"
+    }
+  ]
+}
